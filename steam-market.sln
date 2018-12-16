@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "steam-market", "steam-market\steam-market.csproj", "{7F7313A5-8E55-4587-AABF-67B7141ED9C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "steam-market", "steam-market\steam-market.csproj", "{438E91A3-381A-486D-9227-BCD32D436CE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "steam-market-test", "steam-market-test\steam-market-test.csproj", "{E97EE3C7-CC3C-434B-8372-9371F628B319}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "steam-market-model", "steam-market-model\steam-market-model.csproj", "{1F57E4C3-92DF-44E0-AB3C-EF48E3F6B22E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7F7313A5-8E55-4587-AABF-67B7141ED9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F7313A5-8E55-4587-AABF-67B7141ED9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F7313A5-8E55-4587-AABF-67B7141ED9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F7313A5-8E55-4587-AABF-67B7141ED9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438E91A3-381A-486D-9227-BCD32D436CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438E91A3-381A-486D-9227-BCD32D436CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438E91A3-381A-486D-9227-BCD32D436CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438E91A3-381A-486D-9227-BCD32D436CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97EE3C7-CC3C-434B-8372-9371F628B319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97EE3C7-CC3C-434B-8372-9371F628B319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97EE3C7-CC3C-434B-8372-9371F628B319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97EE3C7-CC3C-434B-8372-9371F628B319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F57E4C3-92DF-44E0-AB3C-EF48E3F6B22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F57E4C3-92DF-44E0-AB3C-EF48E3F6B22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F57E4C3-92DF-44E0-AB3C-EF48E3F6B22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F57E4C3-92DF-44E0-AB3C-EF48E3F6B22E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
